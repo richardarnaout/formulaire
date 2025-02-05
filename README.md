@@ -19,7 +19,7 @@ Gestion des erreurs
 Prérequis
 XAMPP, WAMP ou tout serveur Apache avec PHP et MySQL (lancer phpmyadmin sur localhost pour acceder a la base de données)
 
-[[http://localhost/phpmyadmin/index.php?route=/database/export&db=theorie]
+http://localhost/phpmyadmin/index.php?route=/database/export&db=theorie
 
 
 Lancer le projet
