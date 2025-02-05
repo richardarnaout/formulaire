@@ -35,5 +35,17 @@ Frontend : HTML, CSS, JavaScript
 Backend : PHP (avec MySQL pour la base de données)
 Sécurité : Hashage bcrypt
 
+description de chaque fichier:
+
+db.php => fichier de base de données
+index.php => page de connexion
+login.php => page de login permettant la validation
+logout => permet la deconnexion du dashboard
+register => permet de s'inscrire
+script.js => methodes javascript appliqués
+style.css => design utilisé pour les pages
+test_connexion => fichier pour tester la base de donnée
+theorie.sql => fichier sql contenant la base et a table
+welcome.php => page du dashboard
 
 
