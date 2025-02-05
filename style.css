@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background: #34495e;
+}
+
+/* Logout button */
+.logout-btn {
+    width: 100%;
+    padding: 10px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
+/* Content */
+.content {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.content p {
+    font-size: 1.2em;
+    color: #666;
+}
