@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST["username"]) && isset($_POST["password"])) {
         $username = trim($_POST["username"]);
         $password = trim($_POST["password"]);
-
+        //
         // Validation des champs
         if (empty($username) || empty($password)) {
             echo "Tous les champs sont requis!";
