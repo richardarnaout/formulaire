@@ -6,7 +6,7 @@ require "db.php"; // Connexion à la base de données
 if (!isset($_SESSION['login_attempts'])) {
     $_SESSION['login_attempts'] = 0;
 }
-
+//
 if ($_SESSION['login_attempts'] > 5) {
     $_SESSION["error"] = "Trop de tentatives de connexion. Essayez plus tard.";
     header("Location: index.php");
