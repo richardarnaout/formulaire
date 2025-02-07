@@ -6,7 +6,7 @@ if (isset($_SESSION["username"])) {
     header("Location: welcome.php"); // Redirige vers le dashboard
     exit;
 }
-
+//
 // Affichage des erreurs de connexion si elles existent
 if (isset($_SESSION["error"])) {
     echo "<p style='color:red'>" . $_SESSION["error"] . "</p>";
