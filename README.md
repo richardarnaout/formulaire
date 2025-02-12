@@ -35,6 +35,8 @@ Frontend : HTML, CSS, JavaScript
 Backend : PHP (avec MySQL pour la base de données)
 Sécurité : Hashage bcrypt
 
+Respect des consignes OWASP
+
 description de chaque fichier:
 
 db.php => fichier de base de données
