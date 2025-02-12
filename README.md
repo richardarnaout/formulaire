@@ -47,5 +47,5 @@ style.css => design utilisé pour les pages
 test_connexion => fichier pour tester la base de donnée
 theorie.sql => fichier sql contenant la base et a table
 welcome.php => page du dashboard
-
+change_password.php => page de changement de mot de passe
 
